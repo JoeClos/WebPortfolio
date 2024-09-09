@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.6;
+  background-color: #f0f2f5;
+}
+ h1, h2 {
+  font-family: "Noto Serif", serif;
+ }
+
+.app {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  padding: 0 1rem; /* Adjust padding to suit your design */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0F1624;
+  color: white;
+  min-height: 100vh;
+}
+
+.welcome-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem; /* Reduced margin for a tighter layout */
+}
+
+.welcome-section .description {
+  font-family: "Lumanosimo", cursive;
+  font-size: 1rem; /* Adjust font size for better fit */
+  margin-bottom: 1rem;
+}
+
+.welcome-section button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #282c34;
+  color: #e3b9a2;
+  border: 2px solid #e3b9a2;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.welcome-section button:hover {
+  color: #646cff;
+}
+
+.welcome-section button .arrow {
+  margin-left: 0.5rem;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.welcome-section button:hover .arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 768px) {
+  .welcome-section h1 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  .welcome-section .description {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .welcome-section button {
+    font-size: 0.9em; /* Adjust button font size */
+  }
+}
+
+
