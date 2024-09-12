@@ -16,9 +16,10 @@ body {
   line-height: 1.6;
   background-color: #f0f2f5;
 }
- h1, h2 {
+h1,
+h2 {
   font-family: "Noto Serif", serif;
- }
+}
 
 .app {
   min-height: 100vh;
@@ -28,59 +29,65 @@ body {
 }
 
 .home {
-  padding: 2rem 1rem; /* Adjust padding to suit your design */
+  padding: 10rem 1rem; 
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-around;
-  background-color: #0F1624;
-  color: #f5f5f5;
+  background-color: #0f1624;
+  color: #F2D5C0;
   width: 100%;
   min-height: 100vh;
 }
 
 .welcome-section h1 {
   font-size: 3rem;
-  color: #00d1ff;
+  color: #F2D5C0;
   text-transform: uppercase;
-  margin-bottom: 20px;
 }
 
 .welcome-section .description {
   font-family: "Lumanosimo", cursive;
-  font-size: 1.1em;
+  font-size: 2rem;
   line-height: 1.6;
-  margin-bottom: 1rem;}
+  margin-bottom: 1rem;
+}
 
-.welcome-section button {
-  padding: 0.5rem 1rem;
+
+.button-style .button-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none; 
   border-radius: 8px;
+  border: 2px solid #dfb972;
+  padding: 0.5rem 0 0.5rem 2rem;
   font-size: 1em;
   font-weight: 500;
-  background-color: #282c34;
-  color: #e3b9a2;
-  border: 2px solid #e3b9a2;
+  color: #dfb972;
   cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  transition: background-color 0.3s ease-in-out;
+  max-width: 190px; 
+  width: 100%; 
+  text-align: center; 
 }
 
-.welcome-section button:hover {
-  color: #646cff;
+.button-style .text {
+  transition: transform 0.3s ease-in-out;
 }
 
-.welcome-section button .arrow {
+.button-style .arrow {
   margin-left: 0.5rem;
   opacity: 0;
-  transform: translateX(10px);
+  transform: translateX(-10px); 
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-.welcome-section button:hover .arrow {
+.button-style .button-link:hover .text {
+  transform: translateX(-10px);
+}
+
+.button-style .button-link:hover .arrow {
   opacity: 1;
   transform: translateX(0);
 }
-
 
 @media screen and (max-width: 768px) {
   .welcome-section h1 {
@@ -91,9 +98,7 @@ body {
     font-size: 1rem; /* Adjust font size for smaller screens */
   }
 
-  .welcome-section button {
+  .button-style .button-link {
     font-size: 0.9em; /* Adjust button font size */
   }
 }
-
-

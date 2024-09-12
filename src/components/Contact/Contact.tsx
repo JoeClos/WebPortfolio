@@ -57,7 +57,7 @@ const Contact: React.FC<ContactProps> = ({ onClose }) => {
 
   return (
     <section id="contact" className="contact-section">
-      <h2 className="section-title">Get in Touch</h2>
+      <h2 className="contact-title">Get in Touch</h2>
       <button className="close-form-btn" onClick={onClose}>
         &times;
       </button>

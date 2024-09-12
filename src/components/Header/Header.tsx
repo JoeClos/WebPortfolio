@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Icon } from '@iconify/react';
-import { Link } from 'react-router-dom';
+import { NavLink  } from 'react-router-dom';
 import './header.css';
 import ContactModal from '../Modal/ContactModal';
 import Contact from '../../components/Contact/Contact';
@@ -60,11 +60,10 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="desktop-nav">
             <ul className="nav-list">
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/projects">Projects</Link></li>
-              <li onClick={openModal} ><Link to="#">Contact</Link></li>
-              {/* <li><button onClick={openModal} className="nav-link-button">Contact</button></li> */}
+              <li><NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink></li>
+              <li><NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>About</NavLink></li>
+              <li><NavLink to="/projects"  className={({ isActive }) => isActive ? 'active' : ''}>Projects</NavLink></li>
+              <li onClick={openModal} ><span className=''>Contact</span></li>
             </ul>
           </nav>
           {/* Social media buttons */}
@@ -95,11 +94,10 @@ const Header = () => {
         {/* Mobile Navigation */}
         <nav ref={menuRef} className={`mobile-nav ${isMenuOpen ? 'open' : ''}`}>
           <ul className="mobile-nav-list">
-            <li onClick={toggleMenu}><Link to="/">Home</Link></li>
-            <li onClick={toggleMenu}><Link to="/about">About</Link></li>
-            <li onClick={toggleMenu}><Link to="/projects">Projects</Link></li>
-            {/* <li onClick={toggleMenu}><Link to="/contact">Contact</Link></li> */}
-            <li onClick={openModal} ><Link to="#">Contact</Link></li>
+            <li onClick={toggleMenu}><NavLink to="/">Home</NavLink></li>
+            <li onClick={toggleMenu}><NavLink to="/about">About</NavLink></li>
+            <li onClick={toggleMenu}><NavLink to="/projects">Projects</NavLink></li>
+            <li onClick={openModal} ><NavLink to="#">Contact</NavLink></li>
             <li className="social-media-mobile">
               <a href="https://www.linkedin.com/in/josephine-closan/" target="_blank" rel="noopener noreferrer">
                 <span data-text="LinkedIn"><Icon icon="mdi:linkedin" className='mediaIcon' /></span></a>

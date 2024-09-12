@@ -41,16 +41,31 @@ nav {
   margin: 0 1.5rem;
 }
 
+.nav-list li,
 .nav-list li a {
-  color: #E3BC73;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease-in-out;
+  position: relative; 
+  color: #F2D5C0; 
+  text-decoration: none; 
+  font-weight: 500; 
+  transition: color 0.3s ease-in-out; 
 }
 
-.nav-list li a:hover {
-  color: #e3b9a2;
+.nav-list li a::after {
+  content: ""; 
+  position: absolute; 
+  left: 0; 
+  bottom: -6px;
+  width: 0; 
+  height: 1px; 
+  background-color: #F2D5C0;
+  transition: width 0.3s ease-in-out; 
 }
+
+.nav-list li a:hover::after,
+.nav-list li a.active::after  {
+  width: 150%; 
+}
+
 
 .nav-menu {
   display: none;

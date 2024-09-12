@@ -1,17 +1,14 @@
 .contact-section {
-  /* padding: 4rem 2rem;
-  background-color: #f0f2f5; */
   position: relative;
-  padding: 20px;
+  padding: 20px 0;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
 
-.section-title {
+.contact-title {
   text-align: center;
   font-size: 2rem;
-  /* margin-bottom: 2rem; */
   color: #333;
 }
 
@@ -21,10 +18,8 @@
   background-color: white;
   padding: 2rem;
   border-radius: 8px;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
-/* contact.css */
 .close-form-btn {
   position: absolute;
   top: 10px;
@@ -60,7 +55,7 @@
 }
 
 .submit-btn {
-  background-color: #e3b9a2;
+  background-color: #F2D5C0;
   color: #282c34;
   font-weight: bold;
   padding: 0.75rem 1.5rem;
@@ -73,7 +68,7 @@
 
 .submit-btn:hover {
   background-color: #282c34;
-  color: #e3b9a2;
+  color: #F2D5C0;
 }
 
 /* Thank you message */
