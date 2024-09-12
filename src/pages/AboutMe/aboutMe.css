@@ -1,7 +1,9 @@
 .about-me {
   padding: 2rem 1rem;
-  background-color: #f9f9f9;
-  color: #333;
+  background-color: #0F1624;
+  color: #f5f5f5;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .about-me .container {
@@ -10,9 +12,10 @@
 }
 
 .about-me h2 {
-  font-size: 2em;
-  margin-bottom: 1rem;
-  color: #282c34; /* Main color for headings */
+  font-size: 3rem;
+  color: #00d1ff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .about-me p {
@@ -27,7 +30,7 @@
   }
 
   .about-me h2 {
-    font-size: 1.5em;
+    font-size: 2rem;
   }
 
   .about-me p {

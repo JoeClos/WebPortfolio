@@ -2,6 +2,15 @@ import { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
+    title: "TriviaQuest",
+    description:
+      "TriviaQuest is a fun and interactive trivia app that uses the Open Trivia Database API to offer a wide range of questions across various categories and difficulty levels.",
+    imageUrl: "/assets/trivia.png",
+    techStack: ["React", "Typescript", "Tailwind"],
+    liveLink: "https://triviaquest.netlify.app/",
+    codeLink: "https://github.com/JoeClos/TriviaQuest",
+  },
+  {
     title: "OsTu app - Virittämö project",
     description:
       "I embarked on the ongoing Saukko project, contributing to the frontend by developing API connections to replace mock data. I enhanced the application with a responsive layout optimized for both desktop and tablet views to meet client requirements and implemented new features, coding in alignment with Figma designs.",

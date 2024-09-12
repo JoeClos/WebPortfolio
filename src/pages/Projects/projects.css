@@ -1,22 +1,21 @@
 /* Section Styling */
 .projects-section {
-    padding: 4rem 2rem;
-    background-color: #f8f9fa;
-  }
-  
-  .section-title {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #333;
-  }
-  
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  
+  padding: 4rem 2rem;
+  background-color: #0f1624;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  color: #00d1ff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}

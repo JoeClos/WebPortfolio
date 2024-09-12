@@ -33,7 +33,7 @@ src/
 │   └── projects.ts                 # Data for all portfolio projects.
 ├── pages/                          # Individual pages of the site, built using components.
 │   ├── Home.tsx                    # The landing page with an introduction and project highlights.
-│   ├── About.tsx                   # About section containing personal details, bio, etc.
+│   ├── AboutMe.tsx                   # About section containing personal details, bio, etc.
 │   └── Projects.tsx                # Project listing and details.
 ├── styles/                         # Global styles.
 │   └── main.css                    # Global reset and typography styles.

@@ -28,25 +28,28 @@ body {
 }
 
 .home {
-  padding: 0 1rem; /* Adjust padding to suit your design */
+  padding: 2rem 1rem; /* Adjust padding to suit your design */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: #0F1624;
-  color: white;
+  color: #f5f5f5;
+  width: 100%;
   min-height: 100vh;
 }
 
 .welcome-section h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem; /* Reduced margin for a tighter layout */
+  font-size: 3rem;
+  color: #00d1ff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .welcome-section .description {
   font-family: "Lumanosimo", cursive;
-  font-size: 1rem; /* Adjust font size for better fit */
-  margin-bottom: 1rem;
-}
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 1rem;}
 
 .welcome-section button {
   padding: 0.5rem 1rem;
@@ -77,6 +80,7 @@ body {
   opacity: 1;
   transform: translateX(0);
 }
+
 
 @media screen and (max-width: 768px) {
   .welcome-section h1 {
