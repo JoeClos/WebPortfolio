@@ -1,6 +1,7 @@
 import { projects } from '../../data/projectsData';
 import './projects.css';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
+import Footer from '../../components/Footer/Footer';
 
 const Projects = () => {
 
@@ -12,6 +13,7 @@ const Projects = () => {
                     <ProjectCard key={index} project={project} />
                 ))}
             </div>
+            <Footer />
         </section>
     )
 }

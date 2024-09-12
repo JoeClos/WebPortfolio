@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Icon } from '@iconify/react';
-import { NavLink  } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './header.css';
 import ContactModal from '../Modal/ContactModal';
 import Contact from '../../components/Contact/Contact';
@@ -23,7 +23,7 @@ const Header = () => {
   const closeModal = () => {
     setIsModalOpen(false);
   };
-  
+
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       // Close the menu if clicking outside the menu and the button
@@ -62,12 +62,12 @@ const Header = () => {
             <ul className="nav-list">
               <li><NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink></li>
               <li><NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>About</NavLink></li>
-              <li><NavLink to="/projects"  className={({ isActive }) => isActive ? 'active' : ''}>Projects</NavLink></li>
+              <li><NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>Projects</NavLink></li>
               <li onClick={openModal} ><span className=''>Contact</span></li>
             </ul>
           </nav>
           {/* Social media buttons */}
-          <div className='social-media'>  
+          <div className='social-media'>
             <a href="https://www.linkedin.com/in/josephine-closan/" target="_blank" rel="noopener noreferrer">
               <span data-text="LinkedIn"><Icon icon="mdi:linkedin" className='mediaIcon' /></span></a>
             <a href="https://github.com/JoeClos" target="_blank" rel="noopener noreferrer">

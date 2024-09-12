@@ -24,7 +24,7 @@ export const projects: Project[] = [
     description:
       "For the Homeless Academy project, I quickly adapted to new technologies like Contentful/CMS and EmailJS, where I played a key role in handling various tasks. My contributions included successfully hosting the project on Netlify and configuring it on the client's domain to ensure seamless accessibility. I also took the time to go through the previous team's documentation, ensuring a solid understanding of the project’s objectives, and updated it with the improvements made by our team.",
     imageUrl: "/assets/ha.png",
-    techStack: ["React", "Contentful - CMS", 'EmailJs', 'Tailwind'],
+    techStack: ["React", "Contentful - CMS", "EmailJs", "Tailwind"],
     liveLink: "",
     codeLink: "",
   },

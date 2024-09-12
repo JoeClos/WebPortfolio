@@ -1,94 +1,14 @@
 .footer {
   background-color: #0f1624;
-  color: white;
   padding: 2rem 1rem;
   /* text-align: center; */
   /* border-top: 1px solid #444; */
 }
 
-.footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-}
-
-.footer h4 {
-  color: #e3b9a2;
-  margin-bottom: 10px;
-}
-
 .footer p {
   font-family: "Lumanosimo", cursive;
-  color: #e3b9a2;
+  color: #F2D5C0;
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 1rem;
   text-align: center;
 }
-
-.footer-nav {
-  margin: 1rem 0;
-}
-
-.footer-nav-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.footer-nav-list li {
-  display: inline;
-}
-
-.footer-nav-list a {
-  color: #e3b9a2;
-  text-decoration: none;
-  font-size: 1em;
-}
-
-.footer-nav-list a:hover {
-  text-decoration: underline;
-}
-
-/* .social-media {
-  margin-top: 1rem;
-} */
-
-/* .social-media a {
-  color: #61dafb;
-  margin-right: 0.5rem;
-  text-decoration: none;
-  font-size: 1rem;
-  display: flex;
-}
-
-.footer .social-media span {
-  margin-right: 0.5rem;
-  position: relative;
-}
-
-.footer .social-media span::after {
-  content: "";
-  position: absolute;
-  left: 100%;
-  white-space: nowrap;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-.footer .social-media a:hover span::after {
-  content: attr(data-text);
-  opacity: 1;
-  font-size: 15px;
-  margin-left: 10px;
-}
- */
-/* .mediaIcon {
-  font-size: 2rem;
-} */
-
-/* .social-media a:hover {
-  text-decoration: underline;
-} */
