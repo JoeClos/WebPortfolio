@@ -2,6 +2,15 @@ import { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
+    title: "Photography portfolio",
+    description:
+      "A visually captivating photography portfolio that showcases images through a dynamic, responsive design with an artistic touch.",
+    imageUrl: "/assets/landing-page.png",
+    techStack: ["React", "Typescript", "Sass"],
+    liveLink: "https://photography-portfolio-five-gamma.vercel.app/",
+    codeLink: "https://github.com/JoeClos/photography-portfolio",
+  },
+  {
     title: "TriviaQuest",
     description:
       "TriviaQuest is a fun and interactive trivia app that uses the Open Trivia Database API to offer a wide range of questions across various categories and difficulty levels.",
