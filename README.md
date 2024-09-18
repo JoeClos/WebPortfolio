@@ -2,6 +2,8 @@
 
 Welcome to my portfolio repository. This project showcases my work as a web developer, built using modern web technologies, including React and TypeScript. The website is designed to provide an overview of my skills, projects, and experience, with a clean, responsive, and user-friendly design.
 
+![Landing page](/public/assets/desktop-view.png)
+
 ## Project Overview
 
 This portfolio highlights various projects I have worked on, with sections dedicated to my skills, background, and ways to get in touch. The pp projects are presented with detailed information (where applicable), including links to live demos and GitHub repositories.
