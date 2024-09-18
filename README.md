@@ -8,14 +8,15 @@ This portfolio highlights various projects I have worked on, with sections dedic
 
 ## Key Features
 
-- Responsive Design: The portfolio is fully responsive, optimized for both desktop and mobile devices.
-- Project Showcase: Each project is displayed with key details such as descriptions, images, and links to source code or live demos.
-- Contact Form: Users can easily get in touch via a contact form, which integrates basic validation.
-- Dynamic Content: Data-driven components are used to manage project listings and other site content efficiently..
+- **Responsive Design**: The portfolio is fully responsive, optimized for both desktop and mobile devices.
+- **Project Showcase**: The projects are displayed with key details such as descriptions, images, and links (where applicable) to source code or live demos.
+- **Contact Form**: Users can easily get in touch via a contact form, which integrates basic validation.
+- **Dynamic Content**: Data-driven components are used to manage project listings and other site content efficiently..
 
 ## Technologies Used
 
-1. React (with TypeScript): Frontend framework.
-2. CSS for styling.
-3. React Router: Navigation between pages.
-4. EmailJS: Contact form integration.
+1. **React** (with **TypeScript**): Frontend framework.
+2. **Vite** - Lightning-fast build tool and development server.
+3. **CSS** for styling.
+4. **React Router**: Navigation between pages.
+5. **EmailJS**: Contact form integration.
