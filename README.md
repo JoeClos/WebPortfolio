@@ -7,7 +7,7 @@ Welcome to my portfolio repository. This project showcases my work as a web deve
 
 ## Project Overview
 
-This portfolio highlights various projects I have worked on, with sections dedicated to my skills, background, and ways to get in touch. The pp projects are presented with detailed information (where applicable), including links to live demos and GitHub repositories.
+This portfolio highlights various projects I have worked on, with sections dedicated to my skills, background, and ways to get in touch. The projects are presented with detailed information (where applicable), including links to live demos and GitHub repositories.
 
 ## Key Features
 
