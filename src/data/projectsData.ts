@@ -2,6 +2,15 @@ import { Project } from "../types/project";
 
 export const projects: Project[] = [
   {
+    title: "Course Hub",
+    description:
+      "Dynamic application designed for seamless course subscription management. It enables learners to browse available courses, subscribe/unsubscribe with a single click, and manage personalized course lists.",
+    imageUrl: "/assets/course-hub.png",
+    techStack: ["MongoDB",  "Express", "React", "NodeJs", "MUI-Material", ],
+    liveLink: "https://coursehubui.netlify.app/",
+    codeLink: "https://github.com/JoeClos/coursehub",
+  },
+  {
     title: "Photography portfolio",
     description:
       "A visually captivating photography portfolio that showcases images through a dynamic, responsive design with an artistic touch.",
